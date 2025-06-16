@@ -2,6 +2,9 @@
 
 This is a personal portfolio website project to showcase your work, skills, and contact information. Built with a modern tech stack for both frontend and backend.
 
+## 🚀 Live Demo
+[Check out the live site here!](https://portfolio-website-8ynjzcaqd-aditya-shuklas-projects-8e74f760.vercel.app/)
+
 ## Features
 - Responsive design
 - Project showcase
