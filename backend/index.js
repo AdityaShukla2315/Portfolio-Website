@@ -6,7 +6,7 @@ const routes = require("./routes/user");
 const cors = require("cors");
 
 
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 app.use(cors());
 app.use(express.json());
@@ -17,6 +17,11 @@ dbConnect();
 
 // mounting routes
 app.use("/api/v1", routes);
+
+// root route for welcome message
+app.get('/', (req, res) => {
+    res.send('Welcome to the Portfolio Backend API!');
+});
 
 // listening 
 app.listen(PORT, () => {
